@@ -1,0 +1,23 @@
+/* Estilo de televisión y cine */
+
+/* Separador */
+hr { 
+   border-top: 2px solid #4bceb4; 
+   border-bottom: 2px solid #4bceb4; 
+   border-left:none; 
+   border-right:none; 
+   height: 6px; 
+ } 
+
+/* Botón referencias -> Botón con la forma de la peli de Regreso al futuro */
+#botonRefencias {
+  background-image: url(ToBeContinued.jpg);
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 300px;
+  background-position: center;
+  /* Para ocultar el texto del botón porque, en este caso, no es necesario */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow:hidden;
+}
