@@ -1,0 +1,124 @@
+/* Estilo Ciencia Ficción */
+
+body {
+	background-image: url(cieloEstrellado2.jpg);
+	/* La 3 no queda uniforme y la 1 queda muy mal porque se nota la foto */
+	font-family: 'Supermercado One', cursive;
+	/*color: #CC0000; -> Rojo */
+	/*color: #00FF00; -> Verde */
+	color: #0066FF; /* Azul */
+	text-align: center;
+}
+
+h2 {
+	/*color: #330066; /* Morado * /
+	background-color: #9966CC;*/
+	/*color: #FFFF00; / * Amarillo */
+	color: #FF0000;
+} 
+
+h3 {
+	/*color: #990066; /* Rosa...cosa* /
+	background-color: #CC3399;*/
+	/*color: #FF0000; / * Rojo */
+	color: #FFFF00; /* Amarillo */
+}
+
+p {
+	background-color: #CCFFFF;
+	height: auto;
+}
+
+/* Separador */
+hr { 
+  height: 120px; 
+  background:url(planetaEnMovimiento.gif) repeat center; 
+  border: none; 
+}
+
+/* Botón referencias -> Botón con la forma de un alien */
+#botonRefencias {
+  background-image: url(alien.jpg);
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 500px;
+  background-position: center;
+  /* Para ocultar el texto del botón porque, en este caso, no es necesario */
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow:hidden;
+}
+
+#textoReferencias{
+	color: #FF6600;
+	/*background-color: #33FF33;*/
+	background-color: #66FF66;
+}
+
+/* Menú */
+#top {
+	font-family: 'Baloo', cursive;
+	font-size:12px;
+	position:relative;
+	margin:0 auto;
+	width:200px;
+}
+
+#top ul {
+	/* remove list style */
+	list-style:none;
+	padding:0;
+	margin:0;	
+	
+	/* set the layer position */
+	position:relative;
+	z-index:5;
+}
+
+#top li {
+	/* set the styles */
+	background:#FFFF99; /* Color de fondo */
+	padding:5px;
+	margin:2px;
+	cursor:pointer;
+	border:1px solid #ccc;
+}
+
+#top li.hover {
+	/* on hover, change it to this image */
+	background-image:url(bg_hover.gif) !important;
+}
+
+#top li a {
+	text-decoration:none;	
+	color:#666666; /* Color de las letras */
+}
+
+
+#top .block {
+	/* allow javascript to move the block */
+	position:absolute;
+	top:0;
+	
+	/* set the left position */
+	left:150px;	
+	
+	/* display above the #menu */
+	z-index:10;
+	
+	/* the image and the size */
+	background:transparent url(arrow.png) no-repeat top right;
+	width:39px;
+	padding:4px;
+	cursor:pointer;
+}
+
+/* fast png fix */
+* html .png{
+	position:relative;
+	behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true));
+}
