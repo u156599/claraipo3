@@ -1,0 +1,188 @@
+/* Estilo de televisión y cine */
+
+.e2 {
+   /*cursor: pointer;
+   cursor: hand;*/
+   background-image: url(luna.jpg);
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+   background-position: center;
+   text-align: right;
+}
+
+.e2 h2 {
+   font-family: 'Ubuntu', sans-serif;
+   text-align: right;
+}
+
+.e2 h3 {
+   font-family: 'Playfair Display', serif;
+   text-align: right;
+}
+
+.e2 p {
+   font-family: 'Open Sans Condensed', sans-serif;
+   text-align: right;
+   color: #66CC99;
+   background-color: #FFFFFF;
+}
+
+/* Separador */
+.e2 hr { 
+   border-top: 2px solid #4bceb4; 
+   border-bottom: 2px solid #4bceb4; 
+   border-left:none; 
+   border-right:none; 
+   height: 6px; 
+ } 
+ 
+.e2 img {
+	height: 200px;
+}
+
+/* Estilos de los botones de cambio de CSS */
+/* El botón del estilo que se esté usando aparecerá en un color negro para que no se le pulse */
+
+/* Para alinearlo donde yo quiera */
+.e2 .botonera {
+    text-align: right;
+}
+ 
+.e2 .botonera>li {
+    display: inline-block;
+}
+
+/* Estilo Interfaces de usuario */
+.e2 #estilo1 {
+   /*list-style: none;
+   float: center;*/
+   background: #ffffb0;
+   background-image: -webkit-linear-gradient(top, #ffffb0, #f8fc00);
+   background-image: -moz-linear-gradient(top, #ffffb0, #f8fc00);
+   background-image: -ms-linear-gradient(top, #ffffb0, #f8fc00);
+   background-image: -o-linear-gradient(top, #ffffb0, #f8fc00);
+   background-image: linear-gradient(to bottom, #ffffb0, #f8fc00);
+   -webkit-border-radius: 28;
+   -moz-border-radius: 28;
+   border-radius: 28px;
+   font-family: Arial;
+   color: #787778;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   cursor: pointer;
+   cursor: hand;
+}
+
+.e2 #estilo1:hover {
+  background: #e8d079;
+  background-image: -webkit-linear-gradient(top, #e8d079, #f2d205);
+  background-image: -moz-linear-gradient(top, #e8d079, #f2d205);
+  background-image: -ms-linear-gradient(top, #e8d079, #f2d205);
+  background-image: -o-linear-gradient(top, #e8d079, #f2d205);
+  background-image: linear-gradient(to bottom, #e8d079, #f2d205);
+  text-decoration: none;
+}
+
+/* Estilo Cine y Televisión */
+.e2 #estilo2 {
+  background: #aae6e3;
+  background-image: -webkit-linear-gradient(top, #aae6e3, #9eebad);
+  background-image: -moz-linear-gradient(top, #aae6e3, #9eebad);
+  background-image: -ms-linear-gradient(top, #aae6e3, #9eebad);
+  background-image: -o-linear-gradient(top, #aae6e3, #9eebad);
+  background-image: linear-gradient(to bottom, #aae6e3, #9eebad);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #665fba;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.e2 #estilo2:hover {
+  background: #9ffcf9;
+  background-image: -webkit-linear-gradient(top, #9ffcf9, #0fcf8f);
+  background-image: -moz-linear-gradient(top, #9ffcf9, #0fcf8f);
+  background-image: -ms-linear-gradient(top, #9ffcf9, #0fcf8f);
+  background-image: -o-linear-gradient(top, #9ffcf9, #0fcf8f);
+  background-image: linear-gradient(to bottom, #9ffcf9, #0fcf8f);
+  text-decoration: none;
+}
+
+/* Estilo Ciencia ficción */
+.e2 #estilo3 {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #cfcfc0);
+  background-image: -moz-linear-gradient(top, #ffffff, #cfcfc0);
+  background-image: -ms-linear-gradient(top, #ffffff, #cfcfc0);
+  background-image: -o-linear-gradient(top, #ffffff, #cfcfc0);
+  background-image: linear-gradient(to bottom, #ffffff, #cfcfc0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #1900fc;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.e2 #estilo3:hover {
+  background: #a6a6a6;
+  background-image: -webkit-linear-gradient(top, #a6a6a6, #595759);
+  background-image: -moz-linear-gradient(top, #a6a6a6, #595759);
+  background-image: -ms-linear-gradient(top, #a6a6a6, #595759);
+  background-image: -o-linear-gradient(top, #a6a6a6, #595759);
+  background-image: linear-gradient(to bottom, #a6a6a6, #595759);
+  text-decoration: none;
+}
+
+/* Botón referencias -> Botón con la forma de la peli de Regreso al futuro */
+.e2 #botonRefencias {
+  background-image: url(ToBeContinued.jpg);
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 300px;
+  background-position: center;
+  /* Para ocultar el texto del botón porque, en este caso, no es necesario */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow:hidden;
+  float: left;
+}
+
+.e2 .referencias {
+    text-align: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+ 
+.e2 .referencias>li {
+    display: inline-block;
+}
+
+/* Menú */
+.e2 ul li {
+	float: right;
+	list-style: none;
+	margin-right: 1em; 
+}
+ 
+.e2 li a {
+	color: #544738;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	font-size: 25px;
+	padding: 12px;
+}
+ 
+.e2 li a:hover {
+	color: #7eb9be;
+}
