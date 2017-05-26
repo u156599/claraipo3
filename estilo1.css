@@ -1,0 +1,124 @@
+/* Fondo, tipo de letra en general... */
+body {
+	background-color: #ffffcc;
+	font-family: "Times New Roman";
+}
+
+/* Títulos */
+h2 {
+	color: #1aa3ff;
+	font-family: Arial;
+	text-align: center;
+}
+
+h3 {
+	color: #a64dff;
+	font-family: Courier;
+}
+
+/* Separador */
+/*hr {
+	border: 0; 
+	height: 2px; 
+	text-align: center; 
+	background: linear-gradient(to left, #fff, #000, #fff);
+	/*color: #99ffdd;* /
+}*/
+
+/*hr {
+	border: 3px solid #666; 
+	border-radius: 300px/10px; 
+	height: 0px; 
+	text-align: center;
+}*/
+
+hr { 
+    border: 1px dashed #33FF6F; 
+}
+
+/*nav {
+	color: blue;
+}*/
+
+/* Menú redondeado de color gris con degradados */
+/*nav{
+    /*Bordes redondeados* /
+    -webkit-border-radius:10px;/*Para chrome y Safari* /
+    -moz-border-radius:10px;/*Para Firefox* /
+    -o-border-radius:10px;/*Para Opera* /
+    border-radius:10px;/*El estandar por defecto* /
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));/*Para chrome y Safari*/
+    /*Degradados* /
+    background-image: -moz-linear-gradient(top center, #FFF, #CCC);/*Para Firefox* /
+    background-image: -o-linear-gradient(top, #FFF, #CCC);/*Para Opera* /
+    background-image: linear-gradient(top, #FFF, #CCC);/*El estandar por defecto* /
+    overflow:hidden;
+    padding:10px;
+    width:950px;
+}*/
+
+/* CSS del menú de arriba */
+/*#top {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}*/
+
+#top {
+	text-align: center;
+}
+
+#button {
+	padding: 0;
+	/*margin: 0 auto;*/
+	display: inline-block;
+	margin: 0;
+}
+
+#button li {
+	display: inline;
+}
+
+#button li a {
+	font-family: Arial;
+	font-size:11px;
+	text-decoration: none;
+	float:left;
+	padding: 10px;
+	background-color: #2175bc;
+	color: #fff;
+}
+
+#button li a:hover {
+	background-color: #2586d7;
+	margin-top:-2px;
+	padding-bottom:12px;
+}
+
+/* Botón de Referencias */
+#botonRefencias {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#botonRefencias:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
