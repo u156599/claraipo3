@@ -1,0 +1,232 @@
+/* Fondo, tipo de letra en general... */
+.e1 {
+	background-color: #ffffcc;
+	/*font-family: "Times New Roman";*/
+}
+
+/* Títulos */
+.e1 h2 {
+	color: #1aa3ff;
+	font-family: 'Griffy', cursive;
+	text-align: center;
+}
+
+.e1 h3 {
+	color: #a64dff;
+	font-family: 'Ranga', cursive;
+}
+
+.e1 p {
+	font-family: 'Indie Flower', cursive;
+}
+
+/* Separador */
+/*hr {
+	border: 0; 
+	height: 2px; 
+	text-align: center; 
+	background: linear-gradient(to left, #fff, #000, #fff);
+	/*color: #99ffdd;* /
+}*/
+
+/*hr {
+	border: 3px solid #666; 
+	border-radius: 300px/10px; 
+	height: 0px; 
+	text-align: center;
+}*/
+
+.e1 hr { 
+    border: 1px dashed #33FF6F; 
+}
+
+/* Estilos de los botones de cambio de CSS */
+/* El botón del estilo que se esté usando aparecerá en un color negro para que no se le pulse */
+
+/* Para alinearlo donde yo quiera */
+.e1 .botonera {
+    text-align: left;
+}
+ 
+.e1 .botonera>li {
+    display: inline-block;
+}
+
+/* Estilo Interfaces de usuario */
+.e1 #estilo1 {
+   /*list-style: none;
+   float: center;*/
+   background: #ffffb0;
+   background-image: -webkit-linear-gradient(top, #ffffb0, #f8fc00);
+   background-image: -moz-linear-gradient(top, #ffffb0, #f8fc00);
+   background-image: -ms-linear-gradient(top, #ffffb0, #f8fc00);
+   background-image: -o-linear-gradient(top, #ffffb0, #f8fc00);
+   background-image: linear-gradient(to bottom, #ffffb0, #f8fc00);
+   -webkit-border-radius: 28;
+   -moz-border-radius: 28;
+   border-radius: 28px;
+   font-family: Arial;
+   color: #787778;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   cursor: pointer;
+   cursor: hand;
+}
+
+.e1 #estilo1:hover {
+  background: #e8d079;
+  background-image: -webkit-linear-gradient(top, #e8d079, #f2d205);
+  background-image: -moz-linear-gradient(top, #e8d079, #f2d205);
+  background-image: -ms-linear-gradient(top, #e8d079, #f2d205);
+  background-image: -o-linear-gradient(top, #e8d079, #f2d205);
+  background-image: linear-gradient(to bottom, #e8d079, #f2d205);
+  text-decoration: none;
+}
+
+/* Estilo Cine y Televisión */
+.e1 #estilo2 {
+  background: #aae6e3;
+  background-image: -webkit-linear-gradient(top, #aae6e3, #9eebad);
+  background-image: -moz-linear-gradient(top, #aae6e3, #9eebad);
+  background-image: -ms-linear-gradient(top, #aae6e3, #9eebad);
+  background-image: -o-linear-gradient(top, #aae6e3, #9eebad);
+  background-image: linear-gradient(to bottom, #aae6e3, #9eebad);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #665fba;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.e1 #estilo2:hover {
+  background: #9ffcf9;
+  background-image: -webkit-linear-gradient(top, #9ffcf9, #0fcf8f);
+  background-image: -moz-linear-gradient(top, #9ffcf9, #0fcf8f);
+  background-image: -ms-linear-gradient(top, #9ffcf9, #0fcf8f);
+  background-image: -o-linear-gradient(top, #9ffcf9, #0fcf8f);
+  background-image: linear-gradient(to bottom, #9ffcf9, #0fcf8f);
+  text-decoration: none;
+}
+
+/* Estilo Ciencia ficción */
+.e1 #estilo3 {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #cfcfc0);
+  background-image: -moz-linear-gradient(top, #ffffff, #cfcfc0);
+  background-image: -ms-linear-gradient(top, #ffffff, #cfcfc0);
+  background-image: -o-linear-gradient(top, #ffffff, #cfcfc0);
+  background-image: linear-gradient(to bottom, #ffffff, #cfcfc0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #1900fc;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.e1 #estilo3:hover {
+  background: #a6a6a6;
+  background-image: -webkit-linear-gradient(top, #a6a6a6, #595759);
+  background-image: -moz-linear-gradient(top, #a6a6a6, #595759);
+  background-image: -ms-linear-gradient(top, #a6a6a6, #595759);
+  background-image: -o-linear-gradient(top, #a6a6a6, #595759);
+  background-image: linear-gradient(to bottom, #a6a6a6, #595759);
+  text-decoration: none;
+}
+
+/*nav {
+	color: blue;
+}*/
+
+/* Menú redondeado de color gris con degradados */
+/*nav{
+    /*Bordes redondeados* /
+    -webkit-border-radius:10px;/*Para chrome y Safari* /
+    -moz-border-radius:10px;/*Para Firefox* /
+    -o-border-radius:10px;/*Para Opera* /
+    border-radius:10px;/*El estandar por defecto* /
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));/*Para chrome y Safari*/
+    /*Degradados* /
+    background-image: -moz-linear-gradient(top center, #FFF, #CCC);/*Para Firefox* /
+    background-image: -o-linear-gradient(top, #FFF, #CCC);/*Para Opera* /
+    background-image: linear-gradient(top, #FFF, #CCC);/*El estandar por defecto* /
+    overflow:hidden;
+    padding:10px;
+    width:950px;
+}*/
+
+/* CSS del menú de arriba */
+/*#top {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}*/
+
+.e1 #top {
+	text-align: center;
+}
+
+.e1 #button {
+	padding: 0;
+	/*margin: 0 auto;*/
+	display: inline-block;
+	margin: 0;
+}
+
+.e1 #button li {
+	display: inline;
+}
+
+.e1 #button li a {
+	font-family: Arial;
+	font-size:11px;
+	text-decoration: none;
+	float:left;
+	padding: 10px;
+	background-color: #2175bc;
+	color: #fff;
+}
+
+.e1 #button li a:hover {
+	background-color: #2586d7;
+	margin-top:-2px;
+	padding-bottom:12px;
+}
+
+/* Botón de Referencias */
+.e1 #botonRefencias {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.e1 #botonRefencias:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
